@@ -1,0 +1,58 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "index.qmd"
+    - "research.qmd"
+    - "publications.qmd"
+    - "cv.qmd"
+    - "projects/*.qmd"
+
+website:
+  title: "Yi Xie"
+  description: "Computational biologist working on single-cell RNA-seq analysis and AI-based method development."
+  site-url: https://yixie97.github.io
+  # site-url: https://yixie.bio        # TODO: switch to your custom domain once purchased
+  favicon: assets/favicon.png
+  open-graph: true
+  twitter-card:
+    creator: "@yourhandle"             # TODO: confirm X/Twitter handle (or remove)
+    card-style: summary
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: projects/index.qmd
+        text: Projects
+      - href: publications.qmd
+        text: Publications
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/carissaxie
+        aria-label: GitHub
+      - text: "Scholar"
+        href: https://scholar.google.com/citations?user=YOUR_ID   # TODO: confirm Scholar URL
+        aria-label: Google Scholar
+      - text: "ORCID"
+        href: https://orcid.org/0000-0000-0000-0000               # TODO: confirm ORCID
+        aria-label: ORCID
+  page-footer:
+    center: "© 2026 Yi Xie · Built with [Quarto](https://quarto.org)"
+    right:
+      - icon: envelope
+        href: mailto:yixie97@gmail.com
+        aria-label: Email
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: true
+    page-layout: full
+    grid:
+      body-width: 900px

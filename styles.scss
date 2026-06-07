@@ -1,0 +1,34 @@
+/*-- scss:defaults --*/
+$primary: #2c6e9b;
+$link-color: #2c6e9b;
+
+/*-- scss:rules --*/
+
+body {
+  font-size: 1.02rem;
+  line-height: 1.6;
+}
+
+/* Tighten the about-page intro links */
+.quarto-about-trestles .about-entity .about-link {
+  margin: 0.2rem;
+}
+
+/* Project listing cards */
+.quarto-listing .card {
+  transition: box-shadow 0.15s ease-in-out;
+}
+.quarto-listing .card:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+/* Button spacing on project pages */
+.btn-sm {
+  margin: 0.15rem 0.15rem 0.6rem 0;
+}
+
+h2 {
+  margin-top: 1.8rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.3rem;
+}
