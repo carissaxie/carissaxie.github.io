@@ -11,7 +11,7 @@ project:
 website:
   title: "Yi Xie"
   description: "Computational biologist working on single-cell RNA-seq analysis and AI-based method development."
-  site-url: https://yixie97.github.io
+  site-url: https://carissaxie.github.io
   # site-url: https://yixie.bio        # TODO: switch to your custom domain once purchased
   favicon: assets/favicon.png
   open-graph: true

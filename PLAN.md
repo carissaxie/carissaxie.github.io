@@ -4,7 +4,7 @@ This file is the **source-of-truth tracker** for building the website. It lives 
 repo root so progress is reviewable in git. Each step below is completed in a focused
 commit that also ticks its checkbox, so `git log` reads as a step-by-step build log.
 
-- **Repo:** `yixie97.github.io` → GitHub Pages
+- **Repo:** `carissaxie.github.io` → GitHub Pages
 - **Framework:** [Quarto](https://quarto.org)
 - **Custom domain:** TBD (e.g. `yixie.bio`)
 - **Tracker issue:** "Website build — plan tracker" (mirror this checklist once the repo is on GitHub)
