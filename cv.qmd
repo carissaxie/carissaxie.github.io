@@ -17,7 +17,8 @@ discovery · perturbation and disease-state modeling · reproducible pipelines.
 - **B.Sc.**, _Field_, _Institution_ — _year_  <!-- TODO -->
 
 ## Experience
-- **Postdoc / Research Scientist**, _Lab / Institution_ — _year_–present  <!-- TODO -->
+- **Postdoctoral Researcher**, A\*STAR Genome Institute of Singapore — _year_–present  <!-- TODO: start year -->
+- _Earlier positions_  <!-- TODO -->
 
 ## Publications
 - Xie Y, Yang J, Ouyang JF, Petretto E. **scPanel: a tool for automatic identification of
