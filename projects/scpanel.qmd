@@ -1,0 +1,42 @@
+---
+title: "scPanel"
+description: "Automatic discovery of sparse, generalizable gene panels for patient classification from scRNA-seq."
+date: 2024-09-01
+image: scpanel.png
+categories: [single-cell, biomarker discovery, machine learning, Python]
+---
+
+**scPanel** is an open-source Python tool that automatically identifies **sparse gene
+panels** for generalizable patient classification from single-cell RNA-seq data.
+
+[{{< fa brands github >}} Code](https://github.com/carissaxie/scPanel){.btn .btn-outline-primary .btn-sm}
+[{{< fa book >}} Paper](https://doi.org/10.1093/bib/bbae482){.btn .btn-outline-primary .btn-sm}
+[{{< fa file-lines >}} Preprint](https://doi.org/10.1101/2024.04.09.588647){.btn .btn-outline-primary .btn-sm}
+
+## The problem
+Translating single-cell discoveries into clinically usable biomarkers is hard: signal is
+spread across thousands of genes and many cell types, and panels that look good on one
+dataset often fail to generalize to another.
+
+## The approach
+scPanel addresses this in two stages:
+
+1. **Find the responsive cells.** It identifies the cell population(s) most responsive to
+   the perturbation of interest (e.g. a disease or drug), so panel selection focuses where
+   the signal actually is.
+2. **Select a sparse panel.** It then uses a data-driven procedure to automatically
+   determine *how many* genes are needed and *which* ones, yielding a minimal panel for
+   patient classification — implemented with parallel computing for scalability.
+
+## Key result
+On scleroderma and COVID-19 datasets, scPanel achieved high patient-classification
+accuracy using **fewer than 20 automatically selected genes**, and reached **100%
+cross-dataset accuracy** predicting COVID-19 disease state on an external dataset —
+demonstrating that the selected genes generalize.
+
+## Reference
+Yi Xie, Jianfei Yang, John F. Ouyang, Enrico Petretto.
+*scPanel: a tool for automatic identification of sparse gene panels for generalizable
+patient classification using scRNA-seq datasets.*
+**Briefings in Bioinformatics** 25(6), 2024, bbae482.
+[doi:10.1093/bib/bbae482](https://doi.org/10.1093/bib/bbae482)

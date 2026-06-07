@@ -1,0 +1,51 @@
+---
+title: "Yi Xie"
+subtitle: "Computational Biologist · single-cell RNA-seq + AI method development"
+about:
+  template: trestles
+  image: profile.jpg
+  image-shape: rounded
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:yixie97@gmail.com
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=YOUR_ID      # TODO: confirm
+    - text: ORCID
+      href: https://orcid.org/0000-0000-0000-0000                  # TODO: confirm
+    - icon: github
+      text: GitHub
+      href: https://github.com/carissaxie
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/YOUR_HANDLE                # TODO: confirm
+    - icon: twitter-x
+      text: X
+      href: https://x.com/YOUR_HANDLE                              # TODO: confirm (or remove)
+---
+
+<!-- TODO: confirm bio wording, exact title, and current affiliation. -->
+
+I am a computational biologist (postdoc / research scientist) working at the
+intersection of **single-cell RNA-seq analysis** and **AI-based method development**.
+My work centers on turning high-dimensional single-cell data into interpretable,
+generalizable, and clinically meaningful signals — for example, identifying the cell
+populations and compact gene panels that best explain a biological or disease state.
+
+My published tool **[scPanel](projects/index.qmd)** automatically discovers sparse,
+generalizable gene panels for patient classification from scRNA-seq data. More broadly,
+I build reproducible pipelines and machine-learning methods for **perturbation and
+disease-state modeling**, **biomarker / gene-panel discovery**, and **generalizable
+single-cell analysis**.
+
+### I'm open to collaborations
+
+- **Biological / wet-lab partners** — if you have single-cell datasets and questions
+  (disease mechanisms, drug/perturbation response, biomarker discovery), I'm glad to
+  help design and run the computational analysis.
+- **Method & tool development** — I enjoy co-developing ML/AI methods for single-cell
+  data, from problem framing to a reproducible, well-documented package.
+
+Reach me at [yixie97@gmail.com](mailto:yixie97@gmail.com), or browse my
+[research](research.qmd), [projects](projects/index.qmd), and [CV](cv.qmd).

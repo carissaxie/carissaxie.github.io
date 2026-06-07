@@ -1,0 +1,13 @@
+---
+title: "Projects"
+description: "Published software and tools."
+listing:
+  contents: "*.qmd"
+  type: grid
+  sort: "date desc"
+  fields: [image, title, description, categories]
+  categories: true
+---
+
+A more readable view of my software and tools than GitHub alone. Only **published** work
+is listed here; additional projects will appear as they are released.

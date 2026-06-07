@@ -1,0 +1,38 @@
+---
+title: "Curriculum Vitae"
+description: "Background, experience, and skills."
+---
+
+[{{< fa file-pdf >}} Download PDF](assets/cv.pdf){.btn .btn-outline-primary .btn-sm}
+<!-- TODO: replace assets/cv.pdf with your real CV PDF. -->
+
+<!-- TODO: confirm all entries below. Dates, titles, and affiliations are placeholders. -->
+
+## Research interests
+Single-cell RNA-seq analysis · AI/ML method development · biomarker & gene-panel
+discovery · perturbation and disease-state modeling · reproducible pipelines.
+
+## Education
+- **Ph.D.**, _Field_, _Institution_ — _year_  <!-- TODO -->
+- **B.Sc.**, _Field_, _Institution_ — _year_  <!-- TODO -->
+
+## Experience
+- **Postdoc / Research Scientist**, _Lab / Institution_ — _year_–present  <!-- TODO -->
+
+## Publications
+- Xie Y, Yang J, Ouyang JF, Petretto E. **scPanel: a tool for automatic identification of
+  sparse gene panels for generalizable patient classification using scRNA-seq datasets.**
+  *Briefings in Bioinformatics* 25(6):bbae482, 2024.
+  [doi:10.1093/bib/bbae482](https://doi.org/10.1093/bib/bbae482)
+
+_Full list on the [Publications](publications.qmd) page._
+
+## Skills
+- **Single-cell:** scRNA-seq analysis, scanpy, anndata, QC/integration, differential expression
+- **Machine learning / AI:** classification, feature selection, PyTorch, scikit-learn, transformers
+- **Statistics & methods:** biomarker discovery, dimensionality reduction, cross-dataset generalization
+- **Engineering:** reproducible pipelines, parallel computing, Python packaging, Git
+- **Languages & tools:** Python, R, Jupyter, Quarto, Linux
+
+## Software
+- **[scPanel](https://github.com/carissaxie/scPanel)** — sparse gene-panel discovery for scRNA-seq (Python, open source)

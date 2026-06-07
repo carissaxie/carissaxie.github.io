@@ -1,0 +1,39 @@
+---
+title: "Research"
+description: "Single-cell transcriptomics and AI methods for interpretable, generalizable biology."
+---
+
+I develop computational and machine-learning methods for **single-cell RNA-seq**, with a
+focus on making the analysis **interpretable**, **reproducible**, and **generalizable**
+across datasets. The thread running through my work: high-dimensional single-cell data is
+most useful when we can reduce it to a small, trustworthy set of signals — the responsive
+cell populations, the genes that matter, the predictable response to a perturbation.
+
+## Research interests
+
+### Biomarker & gene-panel discovery
+Finding compact, generalizable gene panels that explain a biological or disease state from
+single-cell data. This is the focus of my published tool **[scPanel](projects/index.qmd)**, which
+identifies the cell population(s) most responsive to a perturbation and then selects a
+sparse panel (often fewer than 20 genes) for robust, cross-dataset patient classification.
+
+### AI/ML methods for perturbation & disease-state modeling
+Building and applying machine-learning models that predict how cells respond to
+perturbations (disease, drugs, genetic changes), and that transfer reliably to data they
+were not trained on. I'm especially interested in methods whose outputs are biologically
+interpretable rather than black boxes.
+
+### Reproducible & generalizable single-cell analysis
+Designing pipelines and tooling — built on the scanpy / anndata ecosystem — that make
+single-cell analyses transparent, repeatable, and easy for collaborators to reuse.
+Generalization across datasets, batches, and conditions is a first-class goal, not an
+afterthought.
+
+## Direction
+
+My longer-term aim is to bridge **method development** and **biological/clinical
+application**: methods that are rigorous and reusable, validated on real biological
+questions, and packaged so that biologists can apply them to their own data. I'm actively
+looking to [collaborate](index.qmd) with both wet-lab groups and method developers.
+
+<!-- TODO: refine direction once newer projects are published; keep unpublished work off this page. -->
