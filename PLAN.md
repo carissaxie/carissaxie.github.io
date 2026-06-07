@@ -33,7 +33,7 @@ Code: [github.com/carissaxie/scPanel](https://github.com/carissaxie/scPanel)
 - [x] **Step 3 — Write content pages.** `index`, `research`, `projects`, `_projects/scpanel`, `cv`.
 - [x] **Step 4 — references.bib + publications page.** scPanel entry rendered.
 - [x] **Step 5 — Add assets.** Placeholder `profile.jpg`, `assets/favicon.png`, `projects/scpanel.png`, `assets/cv.pdf` in place — **swap in your real photo + CV**.
-- [ ] **Step 6 — Deploy via GitHub Actions.** `publish.yml`; create GitHub repo + set Pages source. *(needs your GitHub auth)*
+- [x] **Step 6 — Deploy via GitHub Actions.** Live at <https://carissaxie.github.io> via official Pages deployment (deploy-pages@v4).
 - [ ] **Step 7 — Custom domain.** Buy domain, add `CNAME`, set DNS, enforce HTTPS. *(your action)*
 - [ ] **Step 8 — SEO / discoverability.** Sitemap, robots.txt, Google Search Console, meta tags.
 
