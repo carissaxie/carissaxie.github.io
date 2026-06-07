@@ -1,0 +1,21 @@
+---
+title: "Publications"
+description: "Peer-reviewed publications."
+bibliography: references.bib
+nocite: |
+  @*
+---
+
+See also my full list on
+[{{< fa brands google >}} Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)  <!-- TODO: confirm -->
+and [ORCID](https://orcid.org/0000-0000-0000-0000).  <!-- TODO: confirm -->
+
+## Peer-reviewed
+
+::: {#refs}
+:::
+
+<!--
+To add a publication: append a BibTeX entry to references.bib and it will render here
+automatically (nocite: @* lists everything in the file).
+-->
